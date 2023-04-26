@@ -5,6 +5,9 @@
 	margin-right: auto;
 	width: 940px
 }Substituido pelo contanier*/
+body{
+	margin: 0;	
+}
 
 .titulo{ /*Substituindo o H1*/
 	background-image: url(../img/sobre-background.jpg);	
