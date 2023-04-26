@@ -12,6 +12,7 @@ body{
 .titulo{ /*Substituindo o H1*/
 	background-image: url(../img/sobre-background.jpg);	
 	padding: 10px;
+	font-size: 25px;
 }
 h2{
 	border-bottom: 2px groove #333333;
