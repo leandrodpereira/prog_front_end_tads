@@ -49,6 +49,7 @@ p{
 #centro-distribuicao {
 	margin: 0;
 	padding: 0;
+	width: 100%;
 }
 #familia-pelho {
 	float: right;
