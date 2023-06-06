@@ -5,9 +5,24 @@ function valorPrimeiroBotao(){
 
 const listaTeclas = document.querySelectorAll
 ('input[type=button]');
+const display = document.querySelector('input[type=tel]');
 
-function valorBotaoUm(){
+function valorBotaoUmJanela(){
     alert(listaTeclas[0].value);
 }
 
-listaTeclas[0].onclick = valorBotaoUm;
+function valorBotaoUm(){
+    display.value += listaTeclas[0].value;
+}
+
+function valorBotao(valor){
+   display.value += listaTeclas[valor].value;
+}
+
+listaTeclas[0].onclick = function(){
+    valorBotao(0);
+}
+
+function limpar(){
+    display.value = '';
+}
