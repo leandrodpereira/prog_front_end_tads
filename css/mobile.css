@@ -33,6 +33,10 @@ header h1 img {
 .painel img {
 	width: 100%;
 }
+.pause,
+.play {
+	display: none;
+}
 /*usar 2 colunas no nosso menu quando chegarmos em 480px (um iPhone em
 paisagem)*/
 @media (min-width: 480px) {
